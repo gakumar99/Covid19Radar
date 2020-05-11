@@ -35,10 +35,13 @@
                     Margin="15,0,0,0"
                     Style="{StaticResource Accent2ColorHeaderLabelStyle}"
                     Text="{Binding Title}"
+                    TextColor="{StaticResource Accent2Color}"
                     VerticalOptions="Center" />
             </Grid>
             <ffimageloading:CachedImage Aspect="AspectFit" Source="{Binding Image}" />
             <Label Text="{Binding Description}" />
+            <ffimageloading:CachedImage IsVisible="{Binding HasImage2}" Aspect="AspectFit" Source="{Binding Image2}" />
+            <Label IsVisible="{Binding HasDescription2}" Text="{Binding Description2}" />
         </StackLayout>
         <BoxView IsVisible="{Binding HasStepNumber}" Style="{StaticResource DefaultLineStyle}" />
     </StackLayout>

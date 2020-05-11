@@ -521,4 +521,32 @@ Please check your SMS.</value>
   <data name="ButtonPositiveSubmit" xml:space="preserve">
     <value>Submit</value>
   </data>
+  <data name="DescriptionPageStep1Image1" xml:space="preserve">
+    <value>descriptionStep11.png</value>
+    <comment>DescriptionPageTextStep1Image1</comment>
+  </data>
+  <data name="DescriptionPageStep1Image2" xml:space="preserve">
+    <value>descriptionStep12.png</value>
+    <comment>DescriptionPageTextStep1Image12</comment>
+  </data>
+  <data name="DescriptionPageStep2Image1" xml:space="preserve">
+    <value>descriptionStep21.png</value>
+  </data>
+  <data name="DescriptionPageStep2Image2" xml:space="preserve">
+    <value>descriptionStep22.png</value>
+  </data>
+  <data name="DescriptionPageStep3Image1" xml:space="preserve">
+    <value>descriptionStep3.png</value>
+  </data>
+  <data name="DescriptionPageStep4Image1" xml:space="preserve">
+    <value>descriptionStep4.png</value>
+  </data>
+  <data name="DescriptionPageTextStep1Description2" xml:space="preserve">
+    <value>DescriptionPageTextStep1Description2</value>
+    <comment>DescriptionPageTextStep1Description2</comment>
+  </data>
+  <data name="DescriptionPageTextStep2Description2" xml:space="preserve">
+    <value>DescriptionPageTextStep2Description2</value>
+    <comment>DescriptionPageTextStep2Description2</comment>
+  </data>
 </root>
