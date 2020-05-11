@@ -519,6 +519,42 @@ Selezionare 'Consenti sempre' per configurare il Bluetooth.</target>
           <source>Submit</source>
           <target state="needs-review-translation" state-qualifier="tm-suggestion">Invia</target>
         </trans-unit>
+        <trans-unit id="DescriptionPageStep1Image1" translate="yes" xml:space="preserve">
+          <source>descriptionStep11.png</source>
+          <target state="new">descriptionStep11.png</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">DescriptionPageTextStep1Image1</note>
+        </trans-unit>
+        <trans-unit id="DescriptionPageStep1Image2" translate="yes" xml:space="preserve">
+          <source>descriptionStep12.png</source>
+          <target state="new">descriptionStep12.png</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">DescriptionPageTextStep1Image12</note>
+        </trans-unit>
+        <trans-unit id="DescriptionPageStep2Image1" translate="yes" xml:space="preserve">
+          <source>descriptionStep21.png</source>
+          <target state="new">descriptionStep21.png</target>
+        </trans-unit>
+        <trans-unit id="DescriptionPageStep2Image2" translate="yes" xml:space="preserve">
+          <source>descriptionStep22.png</source>
+          <target state="new">descriptionStep22.png</target>
+        </trans-unit>
+        <trans-unit id="DescriptionPageStep3Image1" translate="yes" xml:space="preserve">
+          <source>descriptionStep3.png</source>
+          <target state="new">descriptionStep3.png</target>
+        </trans-unit>
+        <trans-unit id="DescriptionPageStep4Image1" translate="yes" xml:space="preserve">
+          <source>descriptionStep4.png</source>
+          <target state="new">descriptionStep4.png</target>
+        </trans-unit>
+        <trans-unit id="DescriptionPageTextStep1Description2" translate="yes" xml:space="preserve">
+          <source>DescriptionPageTextStep1Description2</source>
+          <target state="new">DescriptionPageTextStep1Description2</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">DescriptionPageTextStep1Description2</note>
+        </trans-unit>
+        <trans-unit id="DescriptionPageTextStep2Description2" translate="yes" xml:space="preserve">
+          <source>DescriptionPageTextStep2Description2</source>
+          <target state="new">DescriptionPageTextStep2Description2</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">DescriptionPageTextStep2Description2</note>
+        </trans-unit>
       </group>
     </body>
   </file>

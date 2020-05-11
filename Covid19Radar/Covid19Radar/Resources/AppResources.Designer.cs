@@ -178,6 +178,60 @@ namespace Covid19Radar.Resources {
         }
         
         /// <summary>
+        ///   descriptionStep11.png に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DescriptionPageStep1Image1 {
+            get {
+                return ResourceManager.GetString("DescriptionPageStep1Image1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   descriptionStep12.png に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DescriptionPageStep1Image2 {
+            get {
+                return ResourceManager.GetString("DescriptionPageStep1Image2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   descriptionStep21.png に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DescriptionPageStep2Image1 {
+            get {
+                return ResourceManager.GetString("DescriptionPageStep2Image1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   descriptionStep22.png に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DescriptionPageStep2Image2 {
+            get {
+                return ResourceManager.GetString("DescriptionPageStep2Image2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   descriptionStep3.png に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DescriptionPageStep3Image1 {
+            get {
+                return ResourceManager.GetString("DescriptionPageStep3Image1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   descriptionStep4.png に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DescriptionPageStep4Image1 {
+            get {
+                return ResourceManager.GetString("DescriptionPageStep4Image1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   No need to input personal information. We are using unique ID, allocated to you when installing an app. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string DescriptionPageTextStep1Description {
@@ -187,11 +241,29 @@ namespace Covid19Radar.Resources {
         }
         
         /// <summary>
+        ///   DescriptionPageTextStep1Description2 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DescriptionPageTextStep1Description2 {
+            get {
+                return ResourceManager.GetString("DescriptionPageTextStep1Description2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   A contact with another app user for longer than 30 min in total, within a radius closer than 2m on average is recorded as &quot;Close Contact&quot;. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string DescriptionPageTextStep2Description {
             get {
                 return ResourceManager.GetString("DescriptionPageTextStep2Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   DescriptionPageTextStep2Description2 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DescriptionPageTextStep2Description2 {
+            get {
+                return ResourceManager.GetString("DescriptionPageTextStep2Description2", resourceCulture);
             }
         }
         

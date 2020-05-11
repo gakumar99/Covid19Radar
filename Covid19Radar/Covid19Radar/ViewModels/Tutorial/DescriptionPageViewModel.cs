@@ -28,28 +28,32 @@ namespace Covid19Radar.ViewModels
                 new StepModel
                 {
                     Title = Resources.AppResources.DescriptionPageTitleTextStep1,
-                    Image = "descriptionStep1.png",
+                    Image = Resources.AppResources.DescriptionPageStep1Image1,
+                    Image2 = Resources.AppResources.DescriptionPageStep1Image2,
                     Description = Resources.AppResources.DescriptionPageTextStep1Description,
+                    Description2 = Resources.AppResources.DescriptionPageTextStep1Description2,
                     StepNumber = 1
                 },
                 new StepModel
                 {
                     Title = Resources.AppResources.DescriptionPageTitleTextStep2,
-                    Image = "descriptionStep2.png",
+                    Image = Resources.AppResources.DescriptionPageStep2Image1,
+                    Image2 = Resources.AppResources.DescriptionPageStep2Image2,
                     Description = Resources.AppResources.DescriptionPageTextStep2Description,
+                    Description2 = Resources.AppResources.DescriptionPageTextStep2Description2,
                     StepNumber = 2
                 },
                 new StepModel
                 {
                     Title = Resources.AppResources.DescriptionPageTitleTextStep3,
-                    Image = "descriptionStep3.png",
+                    Image = Resources.AppResources.DescriptionPageStep3Image1,
                     Description = Resources.AppResources.DescriptionPageTextStep3Description,
                     StepNumber = 3
                 },
                 new StepModel
                 {
                     Title = Resources.AppResources.DescriptionPageTitleTextStep4,
-                    Image = "descriptionStep4.png",
+                    Image = Resources.AppResources.DescriptionPageStep4Image1,
                     Description = Resources.AppResources.DescriptionPageTextStep4Description
                 }
             };
