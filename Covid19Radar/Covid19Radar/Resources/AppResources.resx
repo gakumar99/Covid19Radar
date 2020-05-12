@@ -549,4 +549,13 @@ Please check your SMS.</value>
     <value>DescriptionPageTextStep2Description2</value>
     <comment>DescriptionPageTextStep2Description2</comment>
   </data>
+  <data name="AppEyeCatch" xml:space="preserve">
+    <value>TopMainImg.png</value>
+  </data>
+  <data name="AppLogo" xml:space="preserve">
+    <value>Logo.png</value>
+  </data>
+  <data name="NofityOtherPageEyeCatchImage" xml:space="preserve">
+    <value>settings.png</value>
+  </data>
 </root>

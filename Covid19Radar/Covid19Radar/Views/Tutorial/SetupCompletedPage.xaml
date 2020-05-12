@@ -13,56 +13,21 @@
     Style="{StaticResource DefaultPageStyle}"
     Visual="Material">
 
-    <Grid>
-        <Grid.Margin>
-            <Thickness
-                Bottom="{OnPlatform Android=48,
-                                    iOS=64}"
-                Left="32"
-                Right="32"
-                Top="{OnPlatform Android=48,
-                                 iOS=64}" />
-        </Grid.Margin>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="{OnPlatform Android=96, iOS=120}" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-
+    <StackLayout Style="{StaticResource DefaultStackLayout}">
         <ffimageloading:CachedImage
-            Grid.Row="0"
             HorizontalOptions="Center"
-            Source="Logo.png"
+            Source="{x:Static resources:AppResources.AppLogo}"
             VerticalOptions="Center" />
 
-        <Label
-            Grid.Row="1"
-            HorizontalOptions="Center"
-            Style="{StaticResource SubtitleLabelStyle}"
-            Text="{x:Static resources:AppResources.AppName}">
-            <Label.Margin>
-                <Thickness Top="{OnPlatform Android=0, iOS=32}" />
-            </Label.Margin>
-        </Label>
+        <Label Style="{StaticResource DefaultTitleLabel}" Text="{x:Static resources:AppResources.AppName}" />
 
-        <Label
-            Grid.Row="2"
-            HorizontalOptions="Center"
-            Text="{x:Static resources:AppResources.SetupCompletedPageTextYoureReadyToGo}">
-            <Label.Margin>
-                <Thickness Top="{OnPlatform Android=0, iOS=16}" />
-            </Label.Margin>
-        </Label>
+        <Label Style="{StaticResource DefaultSubTitleLabel}" Text="{x:Static resources:AppResources.SetupCompletedPageTextYoureReadyToGo}" />
 
         <Button
-            Grid.Row="3"
-            Margin="57,0"
             AutomationId="ToMainButton"
             Command="{Binding Path=OnClickToMain}"
-            Style="{StaticResource DefaultButtonStyle}"
-            Text="{x:Static resources:AppResources.ButtonHome}"
-            VerticalOptions="End" />
-    </Grid>
+            Style="{StaticResource DefaultButton}"
+            Text="{x:Static resources:AppResources.ButtonHome}" />
+    </StackLayout>
 
 </ContentPage>
