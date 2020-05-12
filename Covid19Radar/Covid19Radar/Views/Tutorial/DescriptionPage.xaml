@@ -10,7 +10,7 @@
     prism:ViewModelLocator.AutowireViewModel="True"
     Title="{Binding Title}"
     ios:Page.UseSafeArea="true"
-    Style="{StaticResource PageStyle}"
+    Style="{StaticResource DefaultPageStyle}"
     Visual="Material">
     <ContentPage.Resources>
         <ResourceDictionary>
