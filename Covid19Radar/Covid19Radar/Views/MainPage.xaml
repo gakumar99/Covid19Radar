@@ -60,6 +60,12 @@
             </Tab.Icon>
             <ShellContent ContentTemplate="{DataTemplate view:LicenseAgreementPage}"/>
         </Tab>
+        <Tab Title="Design Sample" Route="design">
+            <Tab.Icon>
+                <FontImageSource FontFamily="FA-S" Glyph="{StaticResource IconContract}"/>
+            </Tab.Icon>
+            <ShellContent ContentTemplate="{DataTemplate view:DesignSamplePage}"/>
+        </Tab>
 
     </TabBar>
 </Shell>

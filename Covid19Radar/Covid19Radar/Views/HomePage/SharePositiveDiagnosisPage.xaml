@@ -36,13 +36,13 @@
                 <Button
                     Grid.Column="0"
                     Command="{Binding CancelCommand}"
-                    Style="{StaticResource DefaultButtonStyle}"
+                    Style="{StaticResource DefaultButton}"
                     Text="{x:Static resources:AppResources.ButtonNotNow}" />
 
                 <Button
                     Grid.Column="1"
                     Command="{Binding SubmitAndVerifyCommand}"
-                    Style="{StaticResource DefaultButtonStyle}"
+                    Style="{StaticResource DefaultButton}"
                     Text="{x:Static resources:AppResources.ButtonPositiveSubmit}" />
             </Grid>
         </StackLayout>
