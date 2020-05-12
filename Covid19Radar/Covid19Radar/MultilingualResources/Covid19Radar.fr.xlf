@@ -555,6 +555,18 @@ Sélectionnez 'Toujours permettre' de configurer Bluetooth.</target>
           <target state="new">DescriptionPageTextStep2Description2</target>
           <note from="MultilingualBuild" annotates="source" priority="2">DescriptionPageTextStep2Description2</note>
         </trans-unit>
+        <trans-unit id="AppEyeCatch" translate="yes" xml:space="preserve">
+          <source>TopMainImg.png</source>
+          <target state="new">TopMainImg.png</target>
+        </trans-unit>
+        <trans-unit id="AppLogo" translate="yes" xml:space="preserve">
+          <source>Logo.png</source>
+          <target state="new">Logo.png</target>
+        </trans-unit>
+        <trans-unit id="NofityOtherPageEyeCatchImage" translate="yes" xml:space="preserve">
+          <source>settings.png</source>
+          <target state="new">settings.png</target>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -186,8 +186,6 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <ITunesArtwork Include="iTunesArtwork@1x.png" />
-    <ITunesArtwork Include="iTunesArtwork@2x.png" />
     <Compile Include="Renderers\BorderlessEntryRenderer.cs" />
     <Compile Include="Extensions\FontExtensions.cs" />
     <Compile Include="Controls\UIBackwardsTextField.cs" />
@@ -241,13 +239,6 @@
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
-    <BundleResource Include="Resources\Roboto-Regular.ttf" />
-    <BundleResource Include="Resources\Logo.png" />
-    <BundleResource Include="Resources\Logo%402x.png" />
-    <BundleResource Include="Resources\Logo%403x.png" />
-    <BundleResource Include="Resources\help.png" />
-    <BundleResource Include="Resources\help%402x.png" />
-    <BundleResource Include="Resources\help%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -302,78 +293,6 @@
       <Project>{554EE1AB-B447-480C-90E5-C4F040891DE6}</Project>
       <Name>Covid19Radar</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\splashimg.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\splashimg%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\splashimg%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\settings.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\settings%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\settings%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\TopMainImg.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\TopMainImg%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\TopMainImg%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\bluetoothAccess.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\bluetoothAccess%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\bluetoothAccess%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\descriptionStep1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\descriptionStep1%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\descriptionStep1%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\descriptionStep2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\descriptionStep2%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\descriptionStep2%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\descriptionStep3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\descriptionStep3%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\descriptionStep3%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\descriptionStep4.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\descriptionStep4%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\descriptionStep4%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />

@@ -61,6 +61,24 @@ namespace Covid19Radar.Resources {
         }
         
         /// <summary>
+        ///   TopMainImg.png に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string AppEyeCatch {
+            get {
+                return ResourceManager.GetString("AppEyeCatch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Logo.png に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string AppLogo {
+            get {
+                return ResourceManager.GetString("AppLogo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   COVID19Radar に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string AppName {
@@ -581,6 +599,15 @@ namespace Covid19Radar.Resources {
         internal static string MainUpdateInfo {
             get {
                 return ResourceManager.GetString("MainUpdateInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   settings.png に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NofityOtherPageEyeCatchImage {
+            get {
+                return ResourceManager.GetString("NofityOtherPageEyeCatchImage", resourceCulture);
             }
         }
         

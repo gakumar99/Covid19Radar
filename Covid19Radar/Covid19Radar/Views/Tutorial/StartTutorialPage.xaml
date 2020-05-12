@@ -14,16 +14,7 @@
     Style="{StaticResource DefaultPageStyle}"
     Visual="Material">
 
-    <Grid>
-        <Grid.Margin>
-            <Thickness
-                Bottom="{OnPlatform Android=48,
-                                    iOS=64}"
-                Left="32"
-                Right="32"
-                Top="{OnPlatform Android=48,
-                                 iOS=64}" />
-        </Grid.Margin>
+    <Grid Style="{StaticResource DefaultGridLayout}">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
@@ -35,7 +26,7 @@
         <ffimageloading:CachedImage
             Grid.Row="0"
             HorizontalOptions="Center"
-            Source="Logo.png"
+            Source="{x:Static resources:AppResources.AppLogo}"
             VerticalOptions="Center" />
 
         <Label
@@ -48,7 +39,7 @@
             Style="{StaticResource DefaultSubTitleLabel}"
             Text="{x:Static resources:AppResources.StartTutorialPageTextProtectingOurLovedOnes}" />
 
-        <ffimageloading:CachedImage Grid.Row="3" Source="TopMainImg.png" />
+        <ffimageloading:CachedImage Grid.Row="3" Source="{x:Static resources:AppResources.AppEyeCatch}" />
 
         <Button
             Grid.Row="4"
