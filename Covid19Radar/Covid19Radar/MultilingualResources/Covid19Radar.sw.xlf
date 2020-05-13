@@ -567,6 +567,11 @@ Chagua ' daima Ruhusu ' kuanzisha Bluetooth.</target>
           <source>settings.png</source>
           <target state="final">settings.png</target>
         </trans-unit>
+        <trans-unit id="ImgBlueToothAccess" translate="yes" xml:space="preserve">
+          <source>bluetoothAccess.png</source>
+          <target state="new">bluetoothAccess.png</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ImgBlueToothAccess</note>
+        </trans-unit>
       </group>
     </body>
   </file>
