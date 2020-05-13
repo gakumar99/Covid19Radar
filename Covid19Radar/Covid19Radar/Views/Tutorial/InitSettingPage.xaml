@@ -14,7 +14,7 @@
     Visual="Material">
     <ScrollView>
         <StackLayout Style="{StaticResource DefaultStackLayout}">
-            <ffimageloading:CachedImage HorizontalOptions="Center" Source="bluetoothAccess.png" />
+            <ffimageloading:CachedImage HorizontalOptions="Center" Source="{x:Static resources:AppResources.ImgBlueToothAccess}" />
             <Label Style="{StaticResource DefaultSubTitleLabel}" Text="{x:Static resources:AppResources.InitSettingPageTextExposureNotification}" />
             <Label Style="{StaticResource DefaultLabel}" Text="{x:Static resources:AppResources.InitSettingPageTextExposureNotificationDescription}" />
             <Button

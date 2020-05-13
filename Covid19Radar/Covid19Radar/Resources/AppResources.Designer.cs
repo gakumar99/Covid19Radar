@@ -439,6 +439,15 @@ namespace Covid19Radar.Resources {
         }
         
         /// <summary>
+        ///   bluetoothAccess.png に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ImgBlueToothAccess {
+            get {
+                return ResourceManager.GetString("ImgBlueToothAccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   descriptionStep11.png に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string ImgDescriptionPageStep1Image1 {
