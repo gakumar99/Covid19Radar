@@ -567,9 +567,9 @@ Selezionare 'Consenti sempre' per configurare il Bluetooth.</target>
           <source>settings.png</source>
           <target state="final">settings.png</target>
         </trans-unit>
-        <trans-unit id="ImgBlueToothAccess" translate="yes" xml:space="preserve">
+        <trans-unit id="ImgBlueToothAccess" translate="no" xml:space="preserve">
           <source>bluetoothAccess.png</source>
-          <target state="new">bluetoothAccess.png</target>
+          <target state="final">bluetoothAccess.png</target>
           <note from="MultilingualBuild" annotates="source" priority="2">ImgBlueToothAccess</note>
         </trans-unit>
       </group>
