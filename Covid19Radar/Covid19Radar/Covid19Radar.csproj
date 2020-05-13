@@ -82,9 +82,6 @@
     <Compile Update="Views\ExceptionPage.xaml.cs">
       <DependentUpon>ExceptionPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\DesignSamplePage.xaml.cs">
-      <DependentUpon>DesignSamplePage.xaml</DependentUpon>
-    </Compile>
     <Compile Update="Views\Tutorial\InitSettingPage.xaml.cs">
       <DependentUpon>InitSettingPage.xaml</DependentUpon>
     </Compile>

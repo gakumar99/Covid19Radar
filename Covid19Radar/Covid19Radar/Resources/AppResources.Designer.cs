@@ -61,24 +61,6 @@ namespace Covid19Radar.Resources {
         }
         
         /// <summary>
-        ///   TopMainImg.png に類似しているローカライズされた文字列を検索します。
-        /// </summary>
-        internal static string AppEyeCatch {
-            get {
-                return ResourceManager.GetString("AppEyeCatch", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Logo.png に類似しているローカライズされた文字列を検索します。
-        /// </summary>
-        internal static string AppLogo {
-            get {
-                return ResourceManager.GetString("AppLogo", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   COVID19Radar に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string AppName {
@@ -192,60 +174,6 @@ namespace Covid19Radar.Resources {
         internal static string ButtonVerify {
             get {
                 return ResourceManager.GetString("ButtonVerify", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   descriptionStep11.png に類似しているローカライズされた文字列を検索します。
-        /// </summary>
-        internal static string DescriptionPageStep1Image1 {
-            get {
-                return ResourceManager.GetString("DescriptionPageStep1Image1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   descriptionStep12.png に類似しているローカライズされた文字列を検索します。
-        /// </summary>
-        internal static string DescriptionPageStep1Image2 {
-            get {
-                return ResourceManager.GetString("DescriptionPageStep1Image2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   descriptionStep21.png に類似しているローカライズされた文字列を検索します。
-        /// </summary>
-        internal static string DescriptionPageStep2Image1 {
-            get {
-                return ResourceManager.GetString("DescriptionPageStep2Image1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   descriptionStep22.png に類似しているローカライズされた文字列を検索します。
-        /// </summary>
-        internal static string DescriptionPageStep2Image2 {
-            get {
-                return ResourceManager.GetString("DescriptionPageStep2Image2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   descriptionStep3.png に類似しているローカライズされた文字列を検索します。
-        /// </summary>
-        internal static string DescriptionPageStep3Image1 {
-            get {
-                return ResourceManager.GetString("DescriptionPageStep3Image1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   descriptionStep4.png に類似しているローカライズされた文字列を検索します。
-        /// </summary>
-        internal static string DescriptionPageStep4Image1 {
-            get {
-                return ResourceManager.GetString("DescriptionPageStep4Image1", resourceCulture);
             }
         }
         
@@ -493,6 +421,87 @@ namespace Covid19Radar.Resources {
         }
         
         /// <summary>
+        ///   TopMainImg.png に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ImgAppEyeCatch {
+            get {
+                return ResourceManager.GetString("ImgAppEyeCatch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Logo.png に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ImgAppLogo {
+            get {
+                return ResourceManager.GetString("ImgAppLogo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   descriptionStep11.png に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ImgDescriptionPageStep1Image1 {
+            get {
+                return ResourceManager.GetString("ImgDescriptionPageStep1Image1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   descriptionStep12.png に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ImgDescriptionPageStep1Image12 {
+            get {
+                return ResourceManager.GetString("ImgDescriptionPageStep1Image12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   descriptionStep21.png に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ImgDescriptionPageStep2Image1 {
+            get {
+                return ResourceManager.GetString("ImgDescriptionPageStep2Image1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   descriptionStep22.png に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ImgDescriptionPageStep2Image2 {
+            get {
+                return ResourceManager.GetString("ImgDescriptionPageStep2Image2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   descriptionStep3.png に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ImgDescriptionPageStep3Image1 {
+            get {
+                return ResourceManager.GetString("ImgDescriptionPageStep3Image1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   descriptionStep4.png に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ImgDescriptionPageStep4Image1 {
+            get {
+                return ResourceManager.GetString("ImgDescriptionPageStep4Image1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   settings.png に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ImgNofityOtherPageEyeCatchImage {
+            get {
+                return ResourceManager.GetString("ImgNofityOtherPageEyeCatchImage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Allow Exposure Notification / Bluetooth に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string InitSettingPageTextExposureNotification {
@@ -599,15 +608,6 @@ namespace Covid19Radar.Resources {
         internal static string MainUpdateInfo {
             get {
                 return ResourceManager.GetString("MainUpdateInfo", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   settings.png に類似しているローカライズされた文字列を検索します。
-        /// </summary>
-        internal static string NofityOtherPageEyeCatchImage {
-            get {
-                return ResourceManager.GetString("NofityOtherPageEyeCatchImage", resourceCulture);
             }
         }
         

@@ -521,24 +521,24 @@ Please check your SMS.</value>
   <data name="ButtonPositiveSubmit" xml:space="preserve">
     <value>Submit</value>
   </data>
-  <data name="DescriptionPageStep1Image1" xml:space="preserve">
+  <data name="ImgDescriptionPageStep1Image1" xml:space="preserve">
     <value>descriptionStep11.png</value>
     <comment>DescriptionPageTextStep1Image1</comment>
   </data>
-  <data name="DescriptionPageStep1Image2" xml:space="preserve">
+  <data name="ImgDescriptionPageStep1Image12" xml:space="preserve">
     <value>descriptionStep12.png</value>
     <comment>DescriptionPageTextStep1Image12</comment>
   </data>
-  <data name="DescriptionPageStep2Image1" xml:space="preserve">
+  <data name="ImgDescriptionPageStep2Image1" xml:space="preserve">
     <value>descriptionStep21.png</value>
   </data>
-  <data name="DescriptionPageStep2Image2" xml:space="preserve">
+  <data name="ImgDescriptionPageStep2Image2" xml:space="preserve">
     <value>descriptionStep22.png</value>
   </data>
-  <data name="DescriptionPageStep3Image1" xml:space="preserve">
+  <data name="ImgDescriptionPageStep3Image1" xml:space="preserve">
     <value>descriptionStep3.png</value>
   </data>
-  <data name="DescriptionPageStep4Image1" xml:space="preserve">
+  <data name="ImgDescriptionPageStep4Image1" xml:space="preserve">
     <value>descriptionStep4.png</value>
   </data>
   <data name="DescriptionPageTextStep1Description2" xml:space="preserve">
@@ -549,13 +549,13 @@ Please check your SMS.</value>
     <value>DescriptionPageTextStep2Description2</value>
     <comment>DescriptionPageTextStep2Description2</comment>
   </data>
-  <data name="AppEyeCatch" xml:space="preserve">
+  <data name="ImgAppEyeCatch" xml:space="preserve">
     <value>TopMainImg.png</value>
   </data>
-  <data name="AppLogo" xml:space="preserve">
+  <data name="ImgAppLogo" xml:space="preserve">
     <value>Logo.png</value>
   </data>
-  <data name="NofityOtherPageEyeCatchImage" xml:space="preserve">
+  <data name="ImgNofityOtherPageEyeCatchImage" xml:space="preserve">
     <value>settings.png</value>
   </data>
 </root>

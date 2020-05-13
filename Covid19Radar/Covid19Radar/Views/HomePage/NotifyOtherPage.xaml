@@ -17,7 +17,8 @@
     <ScrollView>
         <StackLayout Style="{StaticResource DefaultStackLayout}">
             <Label Style="{StaticResource DefaultTitleLabel}" Text="{x:Static resources:AppResources.NotifyOtherPageTextStatusSettingsSubtitle}" />
-            <ffimageloading:CachedImage Source="{x:Static resources:AppResources.NofityOtherPageEyeCatchImage}" />
+
+            <ffimageloading:CachedImage Source="{x:Static resources:AppResources.ImgNofityOtherPageEyeCatchImage}" />
 
             <Label Style="{StaticResource DefaultSubTitleLabel}" Text="{x:Static resources:AppResources.NofityPageShareDiag}" />
             <Label Style="{StaticResource DefaultLabel}" Text="{x:Static resources:AppResources.NofityPageShareYourCase}" />
