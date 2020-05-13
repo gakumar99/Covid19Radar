@@ -16,7 +16,7 @@
     <StackLayout Style="{StaticResource DefaultStackLayout}">
         <ffimageloading:CachedImage
             HorizontalOptions="Center"
-            Source="{x:Static resources:AppResources.AppLogo}"
+            Source="{x:Static resources:AppResources.ImgAppLogo}"
             VerticalOptions="Center" />
 
         <Label Style="{StaticResource DefaultTitleLabel}" Text="{x:Static resources:AppResources.AppName}" />

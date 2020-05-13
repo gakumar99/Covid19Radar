@@ -14,19 +14,6 @@
         <Setter Property="Spacing" Value="0" />
     </Style>
 
-    <Style x:Key="ActivityIndicatorFrame" TargetType="Frame">
-        <Setter Property="BackgroundColor" Value="{StaticResource SecondaryText}" />
-    </Style>
-
-    <Style x:Key="CardFrame" TargetType="Frame">
-        <Setter Property="CornerRadius" Value="10" />
-        <Setter Property="Padding" Value="14" />
-    </Style>
-
-    <Style x:Key="Container" TargetType="StackLayout">
-        <Setter Property="Padding" Value="14" />
-        <Setter Property="Spacing" Value="12" />
-    </Style>
 
 
     <!--  New Style Global  -->
@@ -129,6 +116,14 @@
         <Setter Property="FontFamily" Value="NotoSansRegularFontFamily" />
     </Style>
 
+    <Style x:Key="DefaultSubSubTitleLabel" TargetType="Label">
+        <Setter Property="HorizontalTextAlignment" Value="Start" />
+        <Setter Property="TextColor" Value="{StaticResource PrimaryText}" />
+        <Setter Property="FontSize" Value="{StaticResource MidMediumSize}" />
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+        <Setter Property="FontFamily" Value="NotoSansRegularFontFamily" />
+    </Style>
+
     <Style x:Key="DefaultLabel" TargetType="Label">
         <Setter Property="HorizontalTextAlignment" Value="Start" />
         <Setter Property="TextColor" Value="{StaticResource PrimaryText}" />
@@ -136,6 +131,15 @@
         <Setter Property="HorizontalOptions" Value="FillAndExpand" />
         <Setter Property="FontFamily" Value="NotoSansRegularFontFamily" />
     </Style>
+
+    <Style x:Key="DefaultLabelLittle" TargetType="Label">
+        <Setter Property="HorizontalTextAlignment" Value="Start" />
+        <Setter Property="TextColor" Value="{StaticResource PrimaryText}" />
+        <Setter Property="FontSize" Value="{StaticResource LittleSize}" />
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+        <Setter Property="FontFamily" Value="NotoSansRegularFontFamily" />
+    </Style>
+
 
     <Style x:Key="DefaultActivityIndicator" TargetType="ActivityIndicator">
         <Setter Property="VerticalOptions" Value="Center" />
@@ -178,5 +182,21 @@
         <Setter Property="VerticalOptions" Value="FillAndExpand" />
         <Setter Property="BackgroundColor" Value="Transparent" />
     </Style>
+
+    <Style x:Key="DefaultCardFrame" TargetType="Frame">
+        <Setter Property="BorderColor" Value="{StaticResource Background}" />
+        <Setter Property="CornerRadius" Value="5" />
+        <Setter Property="Padding" Value="10" />
+    </Style>
+
+    <Style x:Key="DefaultParentCardFrame" TargetType="Frame">
+        <Setter Property="CornerRadius" Value="10" />
+        <Setter Property="Padding" Value="14" />
+    </Style>
+
+    <Style x:Key="DefaultActivityIndicatorFrame" TargetType="Frame">
+        <Setter Property="BackgroundColor" Value="{StaticResource SecondaryText}" />
+    </Style>
+
 
 </ResourceDictionary>

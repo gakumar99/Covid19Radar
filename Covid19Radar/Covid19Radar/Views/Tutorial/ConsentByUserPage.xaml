@@ -20,12 +20,5 @@
                 Style="{StaticResource DefaultButton}"
                 Text="{x:Static resources:AppResources.ButtonAgree}" />
         </StackLayout>
-        <!--
-        <Frame
-            IsVisible="{Binding IsBusy}"
-            Style="{StaticResource ActivityIndicatorFrame}">
-            <ActivityIndicator IsRunning="{Binding IsBusy}" />
-        </Frame>
-        -->
     </Grid>
 </ContentPage>
