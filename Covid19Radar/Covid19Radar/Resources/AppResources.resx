@@ -558,4 +558,8 @@ Please check your SMS.</value>
   <data name="ImgNofityOtherPageEyeCatchImage" xml:space="preserve">
     <value>settings.png</value>
   </data>
+  <data name="ImgBlueToothAccess" xml:space="preserve">
+    <value>bluetoothAccess.png</value>
+    <comment>ImgBlueToothAccess</comment>
+  </data>
 </root>
